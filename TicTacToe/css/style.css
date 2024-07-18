@@ -1,0 +1,183 @@
+body {
+    text-align: center;
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007f5f;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 58px;
+    line-height: 60px;
+    font-size: 24px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+}
+
+table {
+    margin: auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td, th {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #2ecc71; 
+    text-align: center;
+    font-size: 24px;
+}
+
+.options:hover {
+    background-color: #006d4b;
+}
+
+#pane {
+    background-color: #1a1a1a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+    margin-left: 20px;
+    margin-right: 20px;
+    height: calc(100vh - 160px);
+    margin-bottom: 20px;
+    max-width: calc(100% - 40px);
+}
+
+#result {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #007f5f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005e45;
+}
+
+
+
+/* For screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+
+    td, th {
+        height: 40px;
+        width: 40px;
+        font-size: 18px;
+    }
+
+    #pane {
+        background-color: #1a1a1a;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+        margin-left: 20px;
+        margin-right: 20px;
+        height: calc(100vh - 160px);
+        margin-bottom: 20px;
+        max-width: calc(100% - 40px);
+    }
+    
+    header{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+}
+
+/* For screens smaller than 300px */
+@media only screen and (max-width: 259px) {
+
+    td, th {
+        height: 35px;
+        width: 35px;
+        font-size: 20px;
+    }
+
+    #pane {
+        height: auto;
+    }
+
+    header{
+        font-size: 10px;
+    }
+    header{
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-height: 482px) {
+
+    td, th {
+        height: 35px;
+        width: 35px;
+        font-size: 20px;
+    }
+
+    #pane {
+        height: auto;
+    }
+
+    header{
+        font-size: 10px;
+    }
+    header{
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-height: 390px) {
+
+    td, th {
+        height: 30px;
+        width: 30px;
+        font-size: 15px;
+    }
+
+    #pane {
+        height: auto;
+    }
+
+    header{
+        font-size: 10px;
+    }
+    header{
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 220px) {
+
+    td, th {
+        height: 35px;
+        width: 35px;
+        font-size: 20px;
+    }
+
+    #pane {
+        height: auto;
+    }
+
+    header{
+        font-size: 14px;
+    }
+    header{
+        margin-top: 25px;
+    }
+    p{
+        font-size: 15px;
+    }
+}

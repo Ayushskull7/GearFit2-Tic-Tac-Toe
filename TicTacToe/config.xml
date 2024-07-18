@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/TicTacToe" version="1.0.0" viewmodes="fullscreen">
+    <tizen:application id="y5OWwYAKjl.TicTacToe" package="y5OWwYAKjl" required_version="2.3.1"/>
+    <author email="ayushgulati.in@gmail.com">Ayush Gulati</author>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="Plugin icon - 1.png"/>
+    <name>TicTacToe</name>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="disable" encryption="enable" hwkey-event="enable"/>
+</widget>
